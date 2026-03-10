@@ -96,6 +96,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 100;
 }
 
 header a {
@@ -151,7 +152,7 @@ header ul {
 .carré {
     display: flex;
     background-color: rgba(0, 0, 0, 0.8);
-    max-width: 550px;
+    width: 50%;
     min-height: 427px;
     padding: 40px;
     border-radius: 20px;
@@ -159,7 +160,7 @@ header ul {
 }
 
 .carré p {
-    margin: 30px;
+    margin: 30px 0;
 }
 
 /* content */
@@ -211,6 +212,40 @@ footer {
 footer ul {
     display: flex;
     justify-content: center;
-    gap: 20;
-    align-items: center;
+    align-items: center;    
+    gap: 20px;
+}
+
+footer span{
+    color: white;
+    background-color: #d300b7;
+    border: #d300b7 20px solid;
+    border-radius: 50px;
+    
+}
+
+footer span:hover{
+    border-color: #000;
+    background-color: black;
+
+}
+
+footer .material-symbols-outlined{
+    font-size: 30px;
+}
+
+/* modal */
+
+.modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+
+.visible{
+    display: flex;
 }
