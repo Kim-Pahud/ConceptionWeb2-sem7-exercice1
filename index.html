@@ -4,6 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/script.js" defer></script>
@@ -13,7 +24,7 @@
 <body>
     <header>
         <div class="wrapper">
-            Gros Vélos
+            <a href="index.html" class="logo">GROS Vélos</a>
             <nav>
                 <ul>
                     <li><a href="">MODÈLES</a></li>
@@ -22,53 +33,83 @@
                     <li><a href="">CONTACT</a></li>
                 </ul>
             </nav>
-            <span class="bouton">BILLETS</span>
+            <button class="bouton">BILLETS</button>
         </div>
     </header>
 
 
     <section class="hero">
         <div class="wrapper">
-
+            <div class="carré">
+                <h1>Voir l’hiver autrement!</h1>
+                <p>Vivez des sensations uniques sur nos sentiers de fat bike soigneusement aménagés.</p>
+                <button class="bouton">Télécharger la carte</button>
+            </div>
         </div>
     </section>
 
     <section class="content">
         <div class="wrapper">
             <h2>Nos circuits Fat Bike</h2>
-            <p>Pensés pour tous les niveaux et toutes les envies, nos parcours vous offrent des expériences variées au cœur de paysages hivernaux exceptionnels. Adrénaline, défi technique ou balade contemplative — il y a un circuit pour vous.</p>
-            <article class="card">
-                <img src="images/descente.jpg" alt="vélo montagne">
-                <h3>Descente</h3>
-                <p>Partez à la découverte de sentiers sinueux à travers la forêt enneigée. Idéal pour améliorer votre endurance tout en profitant pleinement de la nature.</p>
-                <span class="bouton">
-                    EN SAVOIR PLUS
-                </span>
-            </article>
+            <p>Pensés pour tous les niveaux et toutes les envies, nos parcours vous offrent des expériences variées au
+                cœur de paysages hivernaux exceptionnels. Adrénaline, défi technique ou balade contemplative — il y a un
+                circuit pour vous.</p>
+            <div class="container">
+                <article class="card">
+                    <img src="images/descente.jpg" alt="vélo montagne">
+                    <h3>Descente</h3>
+                    <p>Partez à la découverte de sentiers sinueux à travers la forêt enneigée. Idéal pour améliorer
+                        votre
+                        endurance tout en profitant pleinement de la nature.</p>
+                    <button class="bouton">
+                        EN SAVOIR PLUS
+                    </button>
+                    <img class="corner" src="images/coin.png" alt="">
+                </article>
 
-            <article class="card">
-                <img src="images/crosscountry.jpg" alt="vélo piste">
-                <h3>Cross-country</h3>
-                <p>Des pentes grisantes et une bonne dose d’adrénaline. Parfait pour les amateurs de sensations fortes.</p>
-                <span class="bouton">
-                    EN SAVOIR PLUS
-                </span>
-            </article>
+                <article class="card">
+                    <img src="images/crosscountry.jpg" alt="vélo piste">
+                    <h3>Cross-country</h3>
+                    <p>Des pentes grisantes et une bonne dose d’adrénaline. Parfait pour les amateurs de sensations
+                        fortes.
+                    </p>
+                    <button class="bouton">
+                        EN SAVOIR PLUS
+                    </button>
+                    <img class="corner" src="images/coin.png" alt="">
+                </article>
 
-            <article class="card">
-                <img src="images/acrobatique.jpg" alt="vélo air">
-                <h3>Acrobatique</h3>
-                <p>Des pentes grisantes et une bonne dose d’adrénaline. Parfait pour les amateurs de sensations fortes.</p>
-                <span class="bouton">
-                    EN SAVOIR PLUS
-                </span>
-            </article>
+                <article class="card">
+                    <img src="images/acrobatique.jpg" alt="vélo air">
+                    <h3>Acrobatique</h3>
+                    <p>Des pentes grisantes et une bonne dose d’adrénaline. Parfait pour les amateurs de sensations
+                        fortes.
+                    </p>
+                    <button class="bouton">
+                        EN SAVOIR PLUS
+                    </button>
+                    <img class="corner" src="images/coin.png" alt="">
+                </article>
+            </div>
         </div>
     </section>
 
-    <footer >
+    <footer>
         <div class="wrapper">
-
+            <nav>
+                <ul>
+                    <li><a href=""><span class="material-symbols-outlined">
+                                directions_bike
+                            </span></a></li>
+                    <li><a href=""><span class="material-symbols-outlined">
+                                ac_unit
+                            </span></a></li>
+                    <li><a href=""><span class="material-symbols-outlined">
+                                group
+                            </span></a></li>
+                </ul>
+            </nav>
+            <p>Tous droits réservés © 2026 — Gros Vélo</p>
         </div>
     </footer>
 
